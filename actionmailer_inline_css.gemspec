@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.add_dependency('actionmailer', '>= 3.0.0')
   s.add_dependency('premailer',    '>= 1.11.0')
-  s.add_dependency('nokogiri',     '>= 1.7.0')
+  s.add_dependency('nokogiri',     '>= 1.6.8.1')
   s.add_development_dependency('test-unit')
   s.add_development_dependency('mocha', '>= 0.10.0')
 end
